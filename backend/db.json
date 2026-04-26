@@ -1,0 +1,199 @@
+{
+  "users": [
+    {
+      "id": "1777210538803",
+      "name": "Sumaiya Afreen",
+      "email": "afreensumai@gmail.com",
+      "password": "$2a$10$vTwTFrOJh.iY2bqXfedxwObf3XVfELuQs.fu7Cx.75.JYCaJCfEpW",
+      "createdAt": "2026-04-26T13:35:38.815Z"
+    },
+    {
+      "id": "1777210912552",
+      "name": "Sarah",
+      "email": "sarah@gmail.com",
+      "password": "$2a$10$NmZ5HPEtE4DqUroyZSkjK.Da94ybI4e1NxvgA34i6KzLY7MDas8hu",
+      "createdAt": "2026-04-26T13:41:52.552Z"
+    },
+    {
+      "id": "1777212270958",
+      "name": "Humaira",
+      "email": "humaira@gmail.com",
+      "password": "$2a$10$Uh32FeqcDJDlua/2sM.cpeivGud574m.xLICaxMBnz5mcNTv.zLsO",
+      "createdAt": "2026-04-26T14:04:30.958Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1777210597587",
+      "userId": "1777210538803",
+      "name": "Attend meetings",
+      "category": "Work",
+      "time": "10:08",
+      "notes": "",
+      "completed": true,
+      "completedAt": "2026-04-26T13:57:01.336Z",
+      "createdAt": "2026-04-26T13:36:37.587Z"
+    },
+    {
+      "id": "1777210636560",
+      "userId": "1777210538803",
+      "name": "pick up kids from school",
+      "category": "Kids",
+      "time": "",
+      "notes": "",
+      "completed": true,
+      "completedAt": "2026-04-26T13:57:00.593Z",
+      "createdAt": "2026-04-26T13:37:16.560Z"
+    },
+    {
+      "id": "1777210652981",
+      "userId": "1777210538803",
+      "name": "laundry",
+      "category": "Home",
+      "time": "20:08",
+      "notes": "",
+      "completed": true,
+      "completedAt": "2026-04-26T13:56:59.847Z",
+      "createdAt": "2026-04-26T13:37:32.981Z"
+    },
+    {
+      "id": "1777210670971",
+      "userId": "1777210538803",
+      "name": "Read  a book",
+      "category": "Personal",
+      "time": "21:07",
+      "notes": "",
+      "completed": true,
+      "completedAt": "2026-04-26T13:56:58.876Z",
+      "createdAt": "2026-04-26T13:37:50.971Z"
+    },
+    {
+      "id": "1777210935917",
+      "userId": "1777210912552",
+      "name": "Finish Documents",
+      "category": "Work",
+      "time": "11:12",
+      "notes": "",
+      "completed": false,
+      "completedAt": null,
+      "createdAt": "2026-04-26T13:42:15.917Z"
+    },
+    {
+      "id": "1777210956447",
+      "userId": "1777210912552",
+      "name": "Attend ptm",
+      "category": "Kids",
+      "time": "12:12",
+      "notes": "",
+      "completed": false,
+      "completedAt": null,
+      "createdAt": "2026-04-26T13:42:36.447Z"
+    },
+    {
+      "id": "1777212312753",
+      "userId": "1777212270958",
+      "name": "Attend Meeting",
+      "category": "Work",
+      "time": "09:00",
+      "notes": "",
+      "completed": false,
+      "completedAt": null,
+      "createdAt": "2026-04-26T14:05:12.754Z"
+    },
+    {
+      "id": "1777212347368",
+      "userId": "1777212270958",
+      "name": "Pick up kids from school",
+      "category": "Kids",
+      "time": "",
+      "notes": "",
+      "completed": false,
+      "completedAt": null,
+      "createdAt": "2026-04-26T14:05:47.368Z"
+    },
+    {
+      "id": "1777212362796",
+      "userId": "1777212270958",
+      "name": "Cook dinner",
+      "category": "Home",
+      "time": "",
+      "notes": "",
+      "completed": false,
+      "completedAt": null,
+      "createdAt": "2026-04-26T14:06:02.796Z"
+    }
+  ],
+  "checkins": [
+    {
+      "id": "1777210962349",
+      "userId": "1777210912552",
+      "selectedAreas": [
+        "work"
+      ],
+      "capacity": 4,
+      "date": "Sun Apr 26 2026",
+      "createdAt": "2026-04-26T13:42:42.349Z"
+    },
+    {
+      "id": "1777211830956",
+      "userId": "1777210538803",
+      "selectedAreas": [
+        "work",
+        "home",
+        "unexpected"
+      ],
+      "capacity": 2,
+      "date": "Sun Apr 26 2026",
+      "createdAt": "2026-04-26T13:57:10.956Z"
+    },
+    {
+      "id": "1777217323823",
+      "userId": "1777212270958",
+      "selectedAreas": [
+        "unexpected",
+        "work"
+      ],
+      "capacity": 3,
+      "date": "Sun Apr 26 2026",
+      "createdAt": "2026-04-26T15:28:43.824Z"
+    }
+  ],
+  "moodLogs": [
+    {
+      "id": "1777210700131",
+      "userId": "1777210538803",
+      "mood": "ok",
+      "completedCount": 0,
+      "totalCount": 0,
+      "date": "Sun Apr 26 2026",
+      "createdAt": "2026-04-26T13:38:20.131Z"
+    },
+    {
+      "id": "1777211851046",
+      "userId": "1777210538803",
+      "mood": "ok",
+      "completedCount": 4,
+      "totalCount": 4,
+      "date": "Sun Apr 26 2026",
+      "createdAt": "2026-04-26T13:57:31.046Z"
+    },
+    {
+      "id": "1777212396888",
+      "userId": "1777212270958",
+      "mood": "ok",
+      "completedCount": 2,
+      "totalCount": 2,
+      "date": "Sun Apr 26 2026",
+      "createdAt": "2026-04-26T14:06:36.888Z"
+    },
+    {
+      "id": "1777217363383",
+      "userId": "1777212270958",
+      "mood": "ok",
+      "completedCount": 3,
+      "totalCount": 3,
+      "date": "Sun Apr 26 2026",
+      "createdAt": "2026-04-26T15:29:23.403Z"
+    }
+  ]
+}
